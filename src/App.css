@@ -1,0 +1,48 @@
+/* src/App.css */
+
+.filter-buttons {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.filter-buttons button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #f0f0f0; /* Default button background */
+  color: black; /* Default button text color */
+}
+
+.machine-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.machine {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.acceptable {
+  background-color: #d4edda;
+}
+
+.monitor {
+  background-color: #fff3cd;
+}
+
+.alarm {
+  background-color: #f8d7da;
+}
+
+.danger {
+  background-color: #f5c6cb;
+}
+
+.no-status {
+  background-color: #e2e3e5;
+}
